@@ -1,0 +1,56 @@
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+.social-sharing {
+    display: flex;
+    flex-direction: column;
+	position: fixed;
+    width: 200px;
+    height: 40px;
+	left: 0;
+    top: 15%;
+    
+}
+.social-sharing div{
+    width: 50px;
+    height: 50px;
+}
+
+.iconfb{
+    background-image: url('img/fb.svg');
+    background-repeat: no-repeat;
+    background-color: blue;
+    background-size: contain;
+    transition: all 0.5s;
+}
+.iconfb:hover{
+    background-color: rgb(53, 94, 228);
+}
+
+.iconig{
+    background-image: url('img/ig.svg');
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-size: contain;
+    transition: all 0.5s;
+}
+.iconig:hover{
+    background-color: rgb(236, 73, 160);
+}
+.icontw{
+    background-image: url('img/tw.svg');
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    background-size: contain;
+    transition: all 0.5s;
+}
+.icontw:hover{
+    background-color: rgb(57, 74, 231);
+}
+.iconyt{
+    background-image: url('img/yt.svg');
+    background-repeat: no-repeat;
+    background-color: red;
+    background-size: contain;
+    transition: all 0.5s;
+}
